@@ -1,0 +1,11 @@
+startTime : 2015/09/10 16:09:22
+steps = 100000000
+number of molecules= 256
+temperature(sim) = 5.0
+box size(angstrom): 10.079368399158984
+truncation= 4.938890515587902
+dipoleStrength = 1.0
+-<M^2>*bt*bt:	-10.92535911478375 -<M^2>*bt*bt_err:	0.023165491058485484
+AEE_new:	-10.948674166556852 AEE_err:	2.140716091478867E-4
+endTime : 2015/09/10 16:09:22
+Time taken (in mins): 314.6682666666667

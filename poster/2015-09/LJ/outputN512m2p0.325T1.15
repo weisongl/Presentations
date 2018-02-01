@@ -1,0 +1,11 @@
+startTime : 2015/09/21 19:17:01
+number of molecules =	512
+steps= 10000000
+density=	0.325
+temperature=	1.15
+truncation = 5.70153261973117
+dipoleStrength squared = 2.0
+-<M^2>*bt*bt:	-1383.8707107555065 -<M^2>*bt*bt_err:	53.561007573287924 mE*t^0.5:	449.5224363124767
+AEE_new:	-1986.3794728232886 AEE_err:	9.529023819071492 aE*t^0.5:	79.9744104322063
+endTime : 2015/09/21 19:17:01
+Time taken (in mins): 70.43771666666666

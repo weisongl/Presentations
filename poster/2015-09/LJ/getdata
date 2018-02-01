@@ -1,0 +1,23 @@
+#!/bin/sh
+#T is density
+
+for P in 12 29 728 759;do p=`awk -v p=$P 'BEGIN {print p/1000.0;}'`;
+for m in 2;
+do for N in 256;
+do rm N${N}m${m}p${p}_TOld N${N}m${m}p${p}_TNew
+for T in {115..155..10} ;do t=`awk -v t=$T 'BEGIN {print t/100.0;}'`;
+if [ -e outputN${N}m${m}T${t}p${p} ];then 
+awk -v t=$t '{if($1=="-<M^2>*bt*bt:"){a=$2;e=$4}}END{print t,a,e}' outputN${N}m${m}T${t}p${p}  >> N${N}m${m}p${p}_TOld
+fi
+done
+
+
+for T in {115..155..10};do t=`awk -v t=$T 'BEGIN {print t/100.0;}'`;
+if [ -e outputN${N}m${m}T${t}p${p} ];then
+awk -v t=$t '{if($1=="AEE_new:"){a=$2;e=$4}}END{print t,a,e}' outputN${N}m${m}T${t}p${p}  >> N${N}m${m}p${p}_TNew
+fi
+done
+
+done
+done
+done

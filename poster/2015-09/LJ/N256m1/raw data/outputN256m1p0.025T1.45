@@ -1,0 +1,10 @@
+startTime : 2015/09/01 14:20:07
+number of molecules =	256
+steps= 10000000
+density=	0.025
+temperature=	1.45
+dipoleStrength squared = 1.0
+-<M^2>*bt*bt:	-124.87991064680581 -<M^2>*bt*bt_err:	0.7927964713452889
+AEE_new:	-124.4946758974259 AEE_err:	0.012835822663101392
+endTime : 2015/09/01 14:20:07
+Time taken (in mins): 43.42325

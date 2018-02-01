@@ -1,0 +1,21 @@
+#!/bin/sh
+#$ -S /bin/sh
+#$ -o /usr/users/weisongl/qstaterr/std_$JOB_ID.out
+#$ -e /usr/users/weisongl/qstaterr/std_$JOB_ID.err
+echo $JOB_NAME $JOB_ID `hostname` `date` >> ~/q.log
+# Get the host machine for your job
+hostname
+# Begin the commands to execute
+# use safeappend if want to have results in same file
+
+cd /usr/users/weisongl/dielectric_constant/LJ
+
+
+t=`awk -v t=$4 'BEGIN {print t/100;}'`
+p=`awk -v p=$3 'BEGIN {print p/1000.0;}'`
+m=`awk -v m=$2 'BEGIN {print m*1.0;}'`
+N=`awk -v N=$1 'BEGIN {print N;}'`
+
+safeappend outputN${N}m${m}p${p}T${t} java -cp ~/DLJ.jar etomica.dielectric.DLJ_NVT_1site  -dielectricOutside 100000000000 -steps 10000000 -numberMolecules $N -temperature $t -dipoleStrength2 $m -density $p
+
+

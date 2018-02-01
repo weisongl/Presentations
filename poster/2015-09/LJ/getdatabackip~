@@ -1,0 +1,11 @@
+for T in {100..150..5} , {160..200..10};do t=`awk -v t=T 'BEGIN {print t/100.0;}'`
+if [ ! -e /outputN256m1p0.025T${t} ];then continue;fi
+awk -v t=$t '{if($1=="-<M^2>*bt*bt:")a=$NF ;else if ($1=="-<M^2>*bt*bt_err:")e=$NF}END{print t,a,e}' /outputN256m1p0.025T${t}|sed -e 's#=##g'
+done > N256m1p0.025Tp0.025_TOld
+
+
+for T in {100..150..5} , {160..200..10};do t=`awk -v t=T 'BEGIN {print t/100.0;}'`
+if [ ! -e /outputN256m1p0.025T${t} ];then continue;fi
+awk -v t=$t '{if($1=="AEE_new:")a=$NF ;else if ($1=="AEE_err:")e=$NF}END{print t,a,e}'
+/outputN256m1p0.025T${t}|sed -e 's#=##g'
+done > N256m1p0.025Tp0.025_TNew

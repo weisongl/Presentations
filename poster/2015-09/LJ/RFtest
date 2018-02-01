@@ -1,0 +1,130 @@
+startTime : 2015/09/11 15:36:43
+number of molecules =	10
+steps= 1000000
+density=	0.2
+temperature=	0.8
+dipoleStrength squared = 2.0
+-<M^2>*bt*bt:	-70.41914293551753 -<M^2>*bt*bt_err:	0.3943515706330683
+AEE_new:	-51.86738961999909 AEE_err:	0.027529375558043672
+endTime : 2015/09/11 15:36:43
+Time taken (in mins): 0.05541666666666667
+startTime : 2015/09/11 15:36:53
+number of molecules =	10
+steps= 1000000
+density=	0.2
+temperature=	1.0
+dipoleStrength squared = 2.0
+-<M^2>*bt*bt:	-37.33053203798788 -<M^2>*bt*bt_err:	0.21894057420805146
+AEE_new:	-30.321714192355344 AEE_err:	0.012798726396572407
+endTime : 2015/09/11 15:36:53
+Time taken (in mins): 0.05785
+startTime : 2015/09/11 15:36:53
+number of molecules =	10
+steps= 1000000
+density=	0.2
+temperature=	0.9
+dipoleStrength squared = 2.0
+-<M^2>*bt*bt:	-49.71267490743849 -<M^2>*bt*bt_err:	0.30015407007137546
+AEE_new:	-38.974905598910745 AEE_err:	0.017696344605899493
+endTime : 2015/09/11 15:36:53
+Time taken (in mins): 0.06001666666666667
+startTime : 2015/09/11 15:37:07
+number of molecules =	10
+steps= 1000000
+density=	0.2
+temperature=	1.1
+dipoleStrength squared = 2.0
+-<M^2>*bt*bt:	-28.782819544348065 -<M^2>*bt*bt_err:	0.15124938861102594
+AEE_new:	-24.22797837010449 AEE_err:	0.009318934363350543
+endTime : 2015/09/11 15:37:07
+Time taken (in mins): 0.05893333333333333
+startTime : 2015/09/11 15:37:07
+number of molecules =	10
+steps= 1000000
+density=	0.2
+temperature=	1.2
+dipoleStrength squared = 2.0
+-<M^2>*bt*bt:	-22.67885411485197 -<M^2>*bt*bt_err:	0.10926350729591291
+AEE_new:	-19.80627506295523 AEE_err:	0.007967666494845094
+endTime : 2015/09/11 15:37:07
+Time taken (in mins): 0.059366666666666665
+startTime : 2015/09/11 15:37:17
+number of molecules =	10
+steps= 1000000
+density=	0.2
+temperature=	1.4
+dipoleStrength squared = 2.0
+-<M^2>*bt*bt:	-15.38928121736872 -<M^2>*bt*bt_err:	0.059768752815283877
+AEE_new:	-13.910480100949815 AEE_err:	0.004034903989675925
+endTime : 2015/09/11 15:37:17
+Time taken (in mins): 0.0586
+startTime : 2015/09/11 15:37:17
+number of molecules =	10
+steps= 1000000
+density=	0.2
+temperature=	1.3
+dipoleStrength squared = 2.0
+-<M^2>*bt*bt:	-18.684727796352075 -<M^2>*bt*bt_err:	0.08397487443758675
+AEE_new:	-16.46548763187877 AEE_err:	0.004992955195886294
+endTime : 2015/09/11 15:37:17
+Time taken (in mins): 0.058666666666666666
+startTime : 2015/09/11 15:37:28
+number of molecules =	10
+steps= 1000000
+density=	0.2
+temperature=	1.5
+dipoleStrength squared = 2.0
+-<M^2>*bt*bt:	-13.039564127101334 -<M^2>*bt*bt_err:	0.054053705382203755
+AEE_new:	-11.894329753968696 AEE_err:	0.0032598009360016544
+endTime : 2015/09/11 15:37:28
+Time taken (in mins): 0.10885
+startTime : 2015/09/11 15:37:28
+number of molecules =	10
+steps= 1000000
+density=	0.2
+temperature=	1.6
+dipoleStrength squared = 2.0
+-<M^2>*bt*bt:	-11.192281810269566 -<M^2>*bt*bt_err:	0.050123777375714385
+AEE_new:	-10.28388729739612 AEE_err:	0.003091253834357926
+endTime : 2015/09/11 15:37:28
+Time taken (in mins): 0.12456666666666667
+startTime : 2015/09/11 15:37:40
+number of molecules =	10
+steps= 1000000
+density=	0.2
+temperature=	1.7
+dipoleStrength squared = 2.0
+-<M^2>*bt*bt:	-9.691406560062145 -<M^2>*bt*bt_err:	0.04154380792436437
+AEE_new:	-8.979973798370876 AEE_err:	0.0023032464924067336
+endTime : 2015/09/11 15:37:40
+Time taken (in mins): 0.14785
+startTime : 2015/09/11 15:37:40
+number of molecules =	10
+steps= 1000000
+density=	0.2
+temperature=	1.8
+dipoleStrength squared = 2.0
+-<M^2>*bt*bt:	-8.428222154779181 -<M^2>*bt*bt_err:	0.03419486793523134
+AEE_new:	-7.905786346158946 AEE_err:	0.001795082946438075
+endTime : 2015/09/11 15:37:40
+Time taken (in mins): 0.14923333333333333
+startTime : 2015/09/11 15:37:49
+number of molecules =	10
+steps= 1000000
+density=	0.2
+temperature=	2.0
+dipoleStrength squared = 2.0
+-<M^2>*bt*bt:	-6.612335502507537 -<M^2>*bt*bt_err:	0.0276171145396786
+AEE_new:	-6.26216755149685 AEE_err:	0.0014558167143332776
+endTime : 2015/09/11 15:37:49
+Time taken (in mins): 0.10403333333333334
+startTime : 2015/09/11 15:37:49
+number of molecules =	10
+steps= 1000000
+density=	0.2
+temperature=	1.9
+dipoleStrength squared = 2.0
+-<M^2>*bt*bt:	-7.475954241291365 -<M^2>*bt*bt_err:	0.031039659269057055
+AEE_new:	-7.012528638428259 AEE_err:	0.0016381065698160893
+endTime : 2015/09/11 15:37:49
+Time taken (in mins): 0.10568333333333334
